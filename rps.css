@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#choices button{
+    font-size: 100px;
+    margin: 15px;
+    padding: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border-radius: 100px; 
+    border: 2px solid orange; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease;
+}
+#choices button:hover{
+    background: linear-gradient(to right, #ff987f, #fac49a);
+}
+#playerDisplay , #computerDisplay{
+    font-size: 2rem;
+}
+#resultDisplay{
+    font-size: 4rem;
+}
+.greenText, #playerScoreDisplay{
+    color: rgb(38, 255, 0);
+}
+.redText, #computerScoreDisplay{
+    color: red;
+}
